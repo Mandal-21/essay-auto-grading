@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-color: #87dfd6;
+}
+
+
+h1 {
+    color: beige;
+    text-align: center;
+    background-color: #086972;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+#sentiments {
+    background-color: #ececec;
+}
+
+.note {
+    color: #900c3f;
+}
+
+/* .form-group {
+    width: 25%;
+} */
