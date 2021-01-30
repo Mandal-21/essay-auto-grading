@@ -17,11 +17,11 @@ path = os.getcwd()
 
 # Loading of tokenizer pickle file
 # tokenizer = pickle.load(open(path + "/essay_auto_grading/src/tokenizer.pkl", "rb"))
-tokenizer = pickle.load(open("../src/tokenizer.pkl", "rb"))
+tokenizer = pickle.load(open("src/tokenizer.pkl", "rb"))
 
 # Load .h5 file
 # model = load_model(path + '/essay_auto_grading/src/functional_model.h5')
-model = load_model('../src/functional_model.h5')
+model = load_model('src/functional_model.h5')
 
 # Dababase
 db = nlpDB()
